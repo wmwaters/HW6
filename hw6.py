@@ -25,14 +25,4 @@ for tag in tags:
 	num_list = re.findall('[0-9]+', str(tag))
 	for item in num_list:
 		list_of_nums.append(int(item))
-	# span = tag.get('span', tag)
-	# span_text = span.contents[0]
-	# print(span)
-	# #list_of_nums.append()
 print(sum(list_of_nums))
-
-# open urlread like
-# soup inputfind tag at position at
-# extract url with that tag
-# open new link
-
